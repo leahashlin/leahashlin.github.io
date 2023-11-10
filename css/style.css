@@ -8,12 +8,12 @@ body {
   margin: 0;
 }
 header, footer {
-  background-color: #ffa500;
+  background-color: #a4ac86;
   text-align: left;
 /*  min-width: 500px; */
 }
 header {
-  font-family: Work Sans;
+font-family: 'Playfair Display', serif;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -29,19 +29,19 @@ main {
     align-content: center;
   }
   h1 {
-    font-family: Poppins;
+   font-family: 'Quattrocento', serif;
     font-size: calc(1em + 3vw);
     padding-bottom: .67em;
     border-bottom: 1px solid;
     line-height: 1.3;
   }
 h2 {
-  font-family: Poppins;
+  font-family: 'Playfair Display', serif;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: a4ac86;
   padding: 10px 0px 10px 10px;
 }
 
@@ -59,7 +59,7 @@ img {
 .bio {
 color: #ffffff;
 font-size: 24px;
-font-family: 'Work Sans';
+font-family: 'Quattrocento', serif;
 }
 .buttonBox {
   display: flex;
@@ -79,7 +79,7 @@ font-family: 'Work Sans';
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color: #a4ac86;
 }
 
 .myButton:active {
@@ -107,7 +107,7 @@ font-family: 'Work Sans';
 
 .mins {
   display: inline-block;
-  font-family: Poppins;
+  font-family: 'Playfair Display', serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -118,7 +118,7 @@ font-family: 'Work Sans';
 }
 
 .description {
-  font-family: Work Sans;
+  font-family: 'Quattrocento', serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
@@ -144,5 +144,7 @@ font-family: 'Work Sans';
 footer {
   margin-top: 44px;
 }
-
+a {
+  color: #3a5a40;
+}
 
