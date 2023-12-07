@@ -86,7 +86,7 @@ font-family: 'Playfair Display', serif;
     position:relative;
     top:1px;
 .project {
-  box-shadow: 0 0px 1px 0 rgb(0 0 0 / 40%); 
+  box-shadow: 5px 10px; 
   width: 100%;
 }
 
