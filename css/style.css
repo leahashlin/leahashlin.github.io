@@ -50,6 +50,9 @@ img {
   width: 100%;
   height: auto;
 }
+a { 
+  color: #283618;
+}
 .wrapper {
   max-width: 1150px;
   margin: auto;
@@ -86,6 +89,7 @@ font-family: 'Playfair Display', serif;
 .myButton:active {
     position:relative;
     top:1px;
+}
 .project {
   box-shadow: 5px 10px; 
   width: 100%;
@@ -116,12 +120,8 @@ footer div {
   align-content: center;
   justify-content: space-between;
   padding: 10px 20px;
-  color: rgba(255, 255, 255, 0.937);
-}
+  color: rgba(255, 255, 255, 0.937);}
 
-a { 
-  color: #283618;
-}
 @media all and (max-width:700px) {
   main {
     grid-template-columns: 1fr;
