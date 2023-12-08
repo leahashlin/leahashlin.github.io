@@ -126,6 +126,7 @@ footer div {
   }
   
   .icons {
+    list-style-type: none;
     display: inline-flex;
   }
   
