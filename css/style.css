@@ -122,4 +122,9 @@ footer div {
 a { 
   color: #283618;
 }
-
+@media all and (max-width:700px) {
+  main {
+    grid-template-columns: 1fr;
+    margin: 44px auto;
+  }
+}
