@@ -121,7 +121,23 @@ footer div {
   justify-content: space-between;
   padding: 10px 20px;
   color: rgba(255, 255, 255, 0.937);}
-
+  .copyright {
+    margin: auto 0;
+  }
+  
+  .icons {
+    list-style-type: none;
+  }
+  
+  .icons a {
+    margin: 0 8px;
+    color: rgb(255, 255, 255, 0.7); /* You can adjust the 0.5 to, say, 0.7 if your icons are too faint */
+  }
+  
+  .icons a:hover {
+    color: rgb(255, 255, 255, 0.8); /* See note above */
+  }
+  
 @media all and (max-width:700px) {
   main {
     grid-template-columns: 1fr;
